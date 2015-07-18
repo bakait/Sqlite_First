@@ -23,7 +23,7 @@ public class MySQLiteHelper extends SQLiteOpenHelper {
     public MySQLiteHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
-
+// hi rajiv  testing github
     @Override
     public void onCreate(SQLiteDatabase database) {
         database.execSQL(DATABASE_CREATE);
